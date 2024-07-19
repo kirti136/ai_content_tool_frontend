@@ -1,7 +1,7 @@
 "use client";
 
 function page() {
-  return <div>Course Page</div>;
+  return <div>All Upload Page</div>;
 }
 
 export default page;

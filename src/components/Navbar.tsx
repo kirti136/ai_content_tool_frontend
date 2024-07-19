@@ -53,12 +53,10 @@ function Navbar({ className }: { className?: string }) {
           </div>
         </MenuItem> */}
 
-        <MenuItem setActive={setActive} active={active} item="Our Courses">
+        <MenuItem setActive={setActive} active={active} item="Our Uploads">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/courses">All Courses</HoveredLink>
-            <HoveredLink href="#">Basic Music Theroy</HoveredLink>
-            <HoveredLink href="#">Advanced Composition</HoveredLink>
-            <HoveredLink href="#">Song Writing</HoveredLink>
+            <HoveredLink href="/allupload">All Uploads</HoveredLink>
+            <HoveredLink href="/upload">Upload Page</HoveredLink>
           </div>
         </MenuItem>
 
